@@ -15,6 +15,9 @@ class _HomepageState extends State<Homepage> {
       appBar: AppBar(
         title: Text("With Git"),
       ),
+      body: Container(
+        color: Colors.blueAccent,
+      ),
     );
   }
 }
